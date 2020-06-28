@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/tool_who"
+        android:icon="@drawable/who2"
+
+        app:showAsAction="always"
+        android:title="WHO Links">
+        <menu>
+            <item
+                android:id="@+id/tool_who_web"
+                android:title="WHO Website"/>
+            <item
+                android:id="@+id/tool_who_twitter"
+                android:title="WHO Twitter"/>
+        </menu>
+    </item>
+
+
+
+
+    <item
+        android:id="@+id/WHO_help"
+        android:title="Help"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/tool_whatsapp"
+        android:title="Join WHO's Health Alert on Whatsapp"
+        app:showAsAction="never"
+        android:orderInCategory="101"/>
+
+
+    <item
+        android:id="@+id/ministry"
+        android:title="ministryofhealth"
+        android:icon="@drawable/moh"
+        app:showAsAction="always">
+
+        <menu>
+            <item
+                android:id="@+id/moh_twitter"
+                android:title="Ministry of Health Twiter"
+                />
+            <item
+                android:id="@+id/moh_web"
+                android:title="Ministry of Health Website"
+                />
+        </menu>
+
+
+
+    </item>
+
+    <item
+        android:id="@+id/call"
+        android:title="call"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_call_black_24dp"/>
+
+    <item
+        android:id="@+id/request"
+        android:title="Report Request Violation"
+        app:showAsAction="never"/>
+
+
+
+
+
+
+
+
+
+
+
+
+</menu>

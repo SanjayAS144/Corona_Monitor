@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D1121313">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_centerHorizontal="true"
+            android:textAllCaps="true"
+            android:layout_marginBottom="40dp"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:layout_height="wrap_content"
+            android:text="India"
+            android:textSize="30dp"
+            android:id="@+id/tvcountarynamed"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvcountarynamed"
+            android:layout_marginTop="16dp"
+            android:id="@+id/text2"
+            android:layout_marginLeft="90dp"
+
+            android:fontFamily="@font/nunito_sans"
+
+            android:text="Total Cases :"
+            android:textColor="#fff"
+            android:textSize="14dp" />
+
+
+        <TextView
+            android:id="@+id/tvTotalcasesd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90dp"
+            android:layout_below="@id/text2"
+            android:textAlignment="textStart"
+            android:fontFamily="@font/nunito_semibold"
+            android:textColor="#FF6E40"
+            android:text="no.of cases"
+            android:textSize="14dp" />
+
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvcountarynamed"
+
+
+            android:layout_marginRight="90dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/nunito_sans"
+            android:text="Todays Cases :"
+            android:textColor="#fff"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/tvTodayscases"
+            android:textAlignment="textStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text1"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="1dp"
+
+            android:layout_marginRight="108dp"
+            android:fontFamily="@font/nunito_semibold"
+            android:text="no.of cases"
+            android:textColor="#FF6E40"
+            android:textSize="14dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text2"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="40dp"
+            android:fontFamily="@font/nunito_semibold"
+            android:text="Total Deaths:"
+            android:id="@+id/text3"
+            android:textColor="#fff"
+            android:textSize="14dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/tvtotaldeths"
+            android:textAlignment="textStart"
+            android:layout_height="wrap_content"
+
+            android:layout_marginLeft="90dp"
+            android:layout_below="@id/text3"
+            android:fontFamily="@font/nunito_sans"
+            android:text="Deaths"
+            android:textColor="@color/colarTotalDeath"
+            android:textSize="14dp" />
+
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text1"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="81dp"
+            android:fontFamily="@font/nunito_semibold"
+            android:text="Todays Deaths:"
+            android:textColor="#fff"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/tvtodaysdeths"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@id/text4"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="142dp"
+            android:textAlignment="textStart"
+            android:fontFamily="@font/nunito_sans"
+            android:text="Deaths"
+            android:textColor="@color/colarTotalDeath"
+            android:textSize="14dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text3"
+            android:id="@+id/text5"
+            android:layout_marginTop="40dp"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/nunito_semibold"
+            android:text="Total Recovered:"
+            android:textColor="#fff"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/tvtotalrecovered"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text5"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="149dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/nunito_sans"
+            android:text="recovered"
+            android:textColor="#F10BF10B"
+            android:textAlignment="textStart"
+            android:textSize="14dp" />
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+</RelativeLayout>

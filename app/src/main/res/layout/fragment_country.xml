@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    >
+    
+       <androidx.appcompat.widget.SearchView
+           android:layout_width="match_parent"
+           android:id="@+id/searchview"
+           android:outlineSpotShadowColor="#fff"
+           android:isScrollContainer="true"
+           app:searchIcon="@drawable/ic_search_black_24dp"
+           app:closeIcon="@drawable/ic_close_black_24dp"
+           android:layout_height="40dp"
+           android:background="@drawable/radius"
+           android:layout_margin="2dp"/>
+
+    
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_below="@id/searchview"
+        android:layout_height="wrap_content"
+        tools:listitem="@layout/item_list_covid_country"
+        android:id="@+id/rvCovidcountry"/>
+
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progress_circular_country"
+        android:indeterminate="true"
+        android:layout_centerInParent="true"
+        android:indeterminateDrawable="@drawable/progress"/>
+</RelativeLayout>

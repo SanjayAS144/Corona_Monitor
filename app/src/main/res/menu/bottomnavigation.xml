@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/home"
+        android:title="Public Advice"/>
+    <item
+        android:id="@+id/nav_instruction"
+        android:icon="@drawable/ic_block_black_24dp"
+        android:title="Preventation Measures"/>
+    <item
+        android:id="@+id/nav_preventaion"
+        android:icon="@drawable/ic_pets_black_24dp"
+        android:title="Point Of Enter to mass Gathering"/>
+    <item
+        android:id="@+id/nav_school"
+        android:icon="@drawable/school"
+        android:title="Guidlines for the Schools and Colleges"/>
+    <item
+        android:id="@+id/nav_globelstat"
+        android:icon="@drawable/globe"
+        android:title="Globle Statistics"/>
+
+
+</menu>

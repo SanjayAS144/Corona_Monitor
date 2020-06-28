@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008dc9</color>
+    <color name="colorPrimaryDark">#66828886</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="colarTotalConfirmed">#EEF446</color>
+    <color name="colarTotalDeath">#e60000</color>
+    <color name="colarTotalRecovered">#7bb974</color>
+
+
+</resources>

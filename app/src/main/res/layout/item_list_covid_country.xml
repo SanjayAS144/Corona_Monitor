@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:backgroundTint="#79000000"
+            android:background="@drawable/radius"
+            android:backgroundTintMode="src_over"
+            app:cardCornerRadius="8dp"
+            android:layout_margin="2dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/tvcountryflag"
+                android:background="@drawable/radius"
+                android:src="#88888888"
+                android:scaleType="centerCrop"
+                />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_gravity="bottom"
+                android:src="@drawable/gradient"
+                android:scaleType="centerCrop"
+                />
+
+        <TextView
+            android:id="@+id/tvcountaryname"
+            style="@style/Lablefontstyle"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="8dp"
+            android:layout_marginBottom="40dp"
+            android:fontFamily="@font/nunito_semibold"
+            android:textColor="#fff"
+            android:textSize="24dp"
+            tools:text="India" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginStart="8dp"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/nunito_sans"
+                android:gravity="left"
+                android:text="Total Cases :"
+                android:textColor="#F147EAB6"
+                android:textSize="18dp" />
+
+
+            <TextView
+                android:id="@+id/tvTotalcases"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginStart="110dp"
+                android:layout_marginBottom="8dp"
+
+                android:textColor="#fff"
+                android:fontFamily="@font/nunito_semibold"
+
+                android:text="no.of cases"
+                android:textSize="18dp" />
+
+
+
+
+
+
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
